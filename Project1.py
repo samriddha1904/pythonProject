@@ -18,7 +18,7 @@ def generate_text(prompt, model=model_bison, temperature=0.0):
     return palm.generate_text(prompt=prompt, model=model, temperature=temperature)
 
 # Streamlit web app
-st.title("Text Generation with Generative AI")
+st.title("SaM-GPT")
 
 # Get user input
 prompt = st.text_input("Enter your prompt:")
